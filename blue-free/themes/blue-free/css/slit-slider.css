@@ -89,6 +89,8 @@
 }
 
 #nav-arrows > a.sl-next:hover {
+	background-color: #d4af37;
+	border-color: #d4af37;
 	color: #fff;
 }
 
@@ -153,10 +155,13 @@
 }
 
 .bg-img-1 {
+	background-image: url(/homeImage1.png);
 }
 .bg-img-2 {
+	background-image: url(/homeImage2.png);
 }
 .bg-img-3 {
+	background-image: url(/homeImage3.png);
 }
 
 
