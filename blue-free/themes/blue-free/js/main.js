@@ -87,7 +87,7 @@ $(document).ready(function(){
 	/*	Menu item highlighting
 	/* ========================================================================= */
 
-	jQuery('#nav').singlePageNav({
+	/*jQuery('#nav').singlePageNav({
 		offset: jQuery('#nav').outerHeight(),
 		filter: ':not(.external)',
 		speed: 2000,
@@ -110,7 +110,7 @@ $(document).ready(function(){
             $(".navbar-brand a").css("color","inherit");
             $("#navigation").addClass("animated-header");
         }
-    });
+    });*/
 	
 	/* ========================================================================= */
 	/*	Fix Slider Height
