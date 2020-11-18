@@ -19,6 +19,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     line-height: 24px;
     font-size: 16px;
+    color: #353B3C;
 }
 
 figure, p, address {
@@ -65,6 +66,7 @@ main > section {
 }
 
 .btn-blue {
+    background-color: #d4af37d5;
     box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.15) inset;
     padding: 15px 55px;
     color: #fff;
@@ -77,6 +79,7 @@ main > section {
 }
 
 .bg-blue {
+    background-color: #D4AF37;
 }
 
 /* Sweep To Right */
@@ -146,6 +149,7 @@ main > section {
 }
 
 .btn-effect:hover, .btn-effect:focus, .btn-effect:active {
+	color: #D4AF37;
 }
 
 .btn-effect:hover:before, .btn-effect:focus:before, .btn-effect:active:before {
@@ -177,6 +181,7 @@ main > section {
 }
 
 .sec-title h2:after {
+    border-bottom: 1px solid #D4AF37;
     content: "";
     display: block;
     left: 45%;
@@ -491,12 +496,14 @@ h1.navbar-brand {
 }
 
 .fancybox-next span {
+    background: url("../img/right.png") no-repeat scroll center center #D4AF37;
     height: 50px;
     width: 50px;
     right: 0;
 }
 
 .fancybox-prev span {
+    background: url("../img/left.png") no-repeat scroll center center #D4AF37;
     height: 50px;
     width: 50px;
     left: 0;
@@ -507,6 +514,7 @@ h1.navbar-brand {
 ==================================================================*/
 
 #about {
+    background-color: #D4AF37;
     color: #fff;
 }
 
@@ -586,7 +594,9 @@ h1.navbar-brand {
 }
 
 .service-item:hover .service-icon {
+    border: 3px solid #D4AF37;
     margin-bottom: 20px;
+    color: #D4AF37;
 }
 
 .service-icon i {
@@ -671,6 +681,7 @@ ul.external li {
 
 ul.external li a {
     background-color: rgba(255, 255, 255, 0.9);
+    color: #353B3C;
     display: block;
     padding: 10px 18px 13px;
     
@@ -682,6 +693,7 @@ ul.external li a {
 }
 
 ul.external li a:hover {
+    background-color: #D4AF37;
     color: #fff;
 }
 
@@ -702,6 +714,7 @@ ul.external li a:hover {
 }
 
 .fancybox-title p {
+    color: #353B3C;
     font-size: 16px;
     line-height: 22px;
 }
@@ -716,6 +729,7 @@ ul.external li a:hover {
 
 
 #testimonials {
+    background-image: url(/blue-free/servicesphoto.jpg);
     padding: 0;
     color: #fff;
 }
@@ -725,6 +739,7 @@ ul.external li a:hover {
 }
 
 #testimonials .overlay {
+    background-color: #70a9a1ec;
     padding: 70px 0 40px;
 }
 
@@ -821,6 +836,7 @@ ul.external li a:hover {
 }
 
 .price-table.featured .value {
+    background-color: #D4AF37;
     color: #fff;
 }
 
@@ -869,7 +885,7 @@ ul.external li a:hover {
 
 .price-table.featured ul li:last-child,
 .price-table ul li:last-child:hover {
-    background-color: #009EE3;
+    background-color: #D4AF37;
 }
 
 .price-table.featured ul li:last-child a,
@@ -941,6 +957,7 @@ ul.external li a:hover {
     border: 1px solid #ececec;
     border-radius: 0;
     box-shadow: none;
+    color: #353B3C;
     font-size: 16px;
     height: 50px;
 }
@@ -1105,6 +1122,7 @@ textarea.form-control {
 }
 
 .footer-social ul li a:hover {
+    color: #D4AF37;
 }
 
 .footer-content > p {
